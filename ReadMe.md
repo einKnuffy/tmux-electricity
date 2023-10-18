@@ -2,4 +2,4 @@
 
 # My personal tmux theme
 
-## *cough* **plagiarism** *cough*
+*cough* **plagiarism** *cough*
