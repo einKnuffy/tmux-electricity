@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-tmux_set status on
-tmux_set status-fg white
-tmux_set status-bg default
-tmux_set status-attr none
+tmux set status on
+tmux set status-fg white
+tmux set status-bg default
+tmux set status-attr none
