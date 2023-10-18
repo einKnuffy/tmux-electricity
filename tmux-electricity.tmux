@@ -48,7 +48,8 @@ BG=default #"$G04"
 tmux_set status-interval 1
 tmux_set status on
 tmux_set status-fg "$FG"
-tmux_set status-bg "$BG"
+tmux_set status-bg default #"$BG"
+tmux_set status-style bg=default
 tmux_set status-attr none
 
 # Configure tmux-prefix-highlight
