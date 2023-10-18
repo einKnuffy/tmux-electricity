@@ -42,7 +42,7 @@ G10=#626262
 G11=#6c6c6c
 G12=#767676
 FG="$G10"
-BG="$G04"
+BG=default #"$G04"
 
 # Set basic status bar options
 tmux_set status-interval 1
