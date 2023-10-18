@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+tmux_set status on
+tmux_set status-fg white
+tmux_set status-bg default
+tmux_set status-attr none
+
+: '
 # Function to get tmux option value or a default value
 tmux_get() {
     local value="$(tmux show -gqv "$1")"
@@ -108,3 +114,4 @@ tmux_set clock-mode-style 24
 tmux_set message-style "fg=$TC,bg=$BG"
 tmux_set message-command-style "fg=$TC,bg=$BG"
 tmux_set mode-style "bg=$TC,fg=$FG"
+'
