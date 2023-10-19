@@ -96,7 +96,7 @@ tmux_set status-right "$RS"
 
 # Set window and pane options
 tmux_set window-status-format " #I:#W#F "
-tmux_set window-status-current-format "#[fg=$G06,bg=$G06]$right_arrow_icon#[fg=$TC,bold] #I:#W#F #[fg=$G06,bg=$G06,nobold]█"
+tmux_set window-status-current-format "#[fg=$TC,bg=$TC]█#[fg=$G06,bold] #I:#W#F #[fg=$TC,bg=$TC]█"
 tmux_set window-status-separator ""
 tmux_set status-justify centre
 tmux_set window-status-current-statys "fg=$TC,bg=$BG"
